@@ -12,7 +12,7 @@ def hello_world():
 
     return f"Hello World!!!!!!"
     
-@app.route("/user", methods=['GET', 'POST'])
+@app.route("/user", methods=['GET'])
 def user():
     """Example Hello World route."""
     
